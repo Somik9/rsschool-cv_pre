@@ -33,3 +33,4 @@ _like a SysAdmin and it was lomg time ago_
 ## Language:
 1. English level C1
 2. Ukrainian
+3. Russian
