@@ -88,7 +88,7 @@
                     <pre class="snippet">
                         <code>
 const arr = [1,2,3,4,5,6];
-const isEven = (x) => {return x % 2 === 0};
+const isEven = (x) =&gt; {return x % 2 === 0};
 
 function partitionOn(pred, items) {
     const [ts, fs] = partition(pred, items);
@@ -98,8 +98,8 @@ function partitionOn(pred, items) {
 
 }
 
-const partition = (pred, list) => {
-    return list.reduce(([ts, fs], cur) =>
+const partition = (pred, list) =&gt; {
+    return list.reduce(([ts, fs], cur) =&gt;
     !pred(cur) ? [[...ts, cur], fs] : [ts, [...fs, cur]], [[],[]] );
 };
 
